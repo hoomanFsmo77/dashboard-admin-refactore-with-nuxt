@@ -1,1 +1,9 @@
 @tailwind utilities;
+@layer utilities {
+  .v-collapse:not(.show) {
+    @apply hidden;
+  }
+  .collapsing{
+    @apply h-0 overflow-hidden transition-all duration-300 ease-in-out
+  }
+}

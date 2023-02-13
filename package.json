@@ -23,12 +23,31 @@
     "sass-loader": "^13.1.0",
     "style-loader": "^3.3.1",
     "tailwindcss": "^3.2.4",
-    "terser-webpack-plugin": "^5.3.6"
+    "terser-webpack-plugin": "^5.3.6",
+    "postcss-nesting": "^10.2.0",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.0.2"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.6",
     "pinia": "^2.0.29",
-    "postcss-import": "^15.1.0",
-    "postcss-loader": "^7.0.2"
+    "@fnando/sparkline": "^0.3.10",
+    "@tinymce/tinymce-vue": "^5.0.0",
+    "@vueform/slider": "^2.1.6",
+    "apexcharts": "^3.36.3",
+    "choices.js": "^10.2.0",
+    "core-js": "^3.26.0",
+    "epic-spinners": "^2.0.0",
+    "ladda": "^2.0.3",
+    "leaflet": "^1.9.3",
+    "simple-code-editor": "^1.2.2",
+    "tinymce": "^6.3.1",
+    "v-calendar": "^3.0.0-alpha.8",
+    "vue-cal": "^4.8.1",
+    "vue-imask": "^6.4.3",
+    "vue-speedometer": "^2.0.0",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-photo-preview": "^0.2.9"
   }
 }
