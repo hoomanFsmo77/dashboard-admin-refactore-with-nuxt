@@ -1,11 +1,11 @@
-/** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
 const plugin = require('tailwindcss/plugin')
-
+// const theme = require("tailwindcss/defaultTheme");
 
 
 module.exports = {
   content: [
-    "./src/components/**/*.{js,vue,ts}",
+      "./src/components/**/*.{js,vue,ts}",
     "./src/composables/**/*.{js,vue,ts}",
     "./src/layouts/**/*.vue",
     "./src/pages/**/*.vue",
@@ -13,8 +13,7 @@ module.exports = {
     "./src/store/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./src/App.vue",
-    "./src/error.vue",
-  ],
+    "./src/error.vue",],
   theme: {
     screens: {
       'sm': '500px',
@@ -24,15 +23,13 @@ module.exports = {
     },
     spacing: {
       '0':'0',
-      '0.1':'0.1rem',
-      '0.2':'0.2rem',
-      '0.3':'0.3rem',
-      '0.4':'0.4rem',
+      '0.125':'0.125rem',
+      '0.25':'0.25rem',
+      '0.375':'0.375rem',
       '0.5':'0.5rem',
-      '0.6':'0.6rem',
-      '0.7':'0.7rem',
-      '0.8':'0.8rem',
-      '0.9':'0.9rem',
+      '0.65':'0.65rem',
+      '0.75':'0.75rem',
+      '0.85':'0.85rem',
       '1':'1rem',
       '1.1':'1.1rem',
       '1.2':'1.2rem',
@@ -80,16 +77,13 @@ module.exports = {
       '24':'24rem',
     },
     fontSize:{
-      '0':'0',
-      '0.1':'0.1rem',
-      '0.2':'0.2rem',
-      '0.3':'0.3rem',
-      '0.4':'0.4rem',
+      '0.125':'0.125rem',
+      '0.25':'0.25rem',
+      '0.375':'0.375rem',
       '0.5':'0.5rem',
-      '0.6':'0.6rem',
-      '0.7':'0.7rem',
-      '0.8':'0.8rem',
-      '0.9':'0.9rem',
+      '0.625':'0.625rem',
+      '0.75':'0.75rem',
+      '0.875':'0.875rem',
       '1':'1rem',
       '1.1':'1.1rem',
       '1.2':'1.2rem',
@@ -163,15 +157,10 @@ module.exports = {
       '4':'4',
     },
     borderRadius:{
-      '1':'1px',
       '2':'2px',
-      '3':'3px',
       '4':'4px',
-      '5':'5px',
       '6':'6px',
-      '7':'7px',
       '8':'8px',
-      '9':'9px',
       '10':'10px',
       '12':'12px',
       '14':'14px',
@@ -184,16 +173,32 @@ module.exports = {
       'full':'9999px'
     },
     fontFamily:{
-      main:['Ubuntu','sans-serif']
+      main:['Montserrat','sans-serif']
     },
     container:{
-      center:true,
+      center:true
     },
 
     extend:{
       colors:{
-        dark:'#1c181f',
-        light:'#fff'
+        primary:{
+          indigo:colors.indigo["600"],
+          red:colors.red["500"],
+          sky:colors.sky["500"],
+          green:colors.green["500"],
+          gray:'#6c757d',
+          dark:'#333'
+        },
+        secondary:{
+          indigo:colors.indigo["500"],
+          indigoLight:colors.indigo["300"],
+          red:colors.red["300"],
+          sky:colors.sky["300"],
+          green:colors.green["300"],
+          gray:'#adb5bd'
+
+
+        }
       }
     }
   },
@@ -207,15 +212,7 @@ module.exports = {
           overflowX:'hidden'
         },
         'h1,h2,h3,h4,h5,h6':{
-          lineHeight:'1.5',
-          fontWeight:'500',
-          color:'#333'
-        },
-        'p,span,a':{
-          fontSize:'0.9rem',
-          fontWeight:'500',
-          lineHeight:'1.6',
-          color:'#333'
+          lineHeight:'1.6'
         }
       })
     })
