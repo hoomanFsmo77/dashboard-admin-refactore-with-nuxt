@@ -19,9 +19,14 @@ export default defineNuxtConfig({
     ],
     app:{
         rootId:'v-app',
-        rootTag:'main',
+        rootTag:'div',
         head:{
-            title:'my website',
+            title:'Nuxt and Tailwind Dashboard Admin',
+            link:[
+                {
+                    rel:'icon',href:'/d_logo.png'
+                }
+            ],
             meta: [
                 { name: 'viewport', content: 'width=device-width ,initial-scale=1.0' },
                 { name: 'description', content: 'welcome to My project' },
