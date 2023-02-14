@@ -1,0 +1,54 @@
+@tailwind components;
+
+@layer components {
+  .btn-primary{
+    @apply border-[1px] border-primary-indigo bg-transparent text-primary-indigo hover:bg-primary-indigo hover:text-white  focus:ring-primary-indigo/50 ;
+  }
+  .btn-dark{
+    @apply border-[1px] border-primary-dark bg-transparent text-primary-dark hover:bg-primary-dark hover:text-white  focus:ring-primary-dark/50 ;
+  }
+  .btn-gray{
+    @apply border-[1px] border-gray-500 bg-transparent text-gray-500 hover:bg-gray-500 hover:text-white  focus:ring-gray-500/50 ;
+  }
+  .btn{
+    @apply px-[0.7rem] py-[0.4rem]  rounded-[5px] focus:ring-4 transition-all capitalize font-500;
+  }
+  .btn-white{
+    @apply  border-[1px] border-white bg-transparent text-white hover:bg-white hover:text-primary-dark focus:ring-4 focus:ring-white/50;
+  }
+  .btn-sky-full{
+    @apply bg-sky-600 text-white hover:bg-sky-700  focus:ring-sky-600/50 focus:ring-4;
+  }
+  .btn-dark-full{
+    @apply bg-primary-dark text-white hover:bg-[#444]  focus:ring-primary-dark/50 focus:ring-4;
+  }
+  .btn-gray-full{
+    @apply bg-gray-600 text-white hover:bg-gray-700  focus:ring-gray-600/50 focus:ring-4;
+  }
+
+  .btn-white-full{
+    @apply   bg-white text-primary-dark focus:ring-4 focus:ring-white/50;
+  }
+  .btn-primary-full{
+    @apply  bg-primary-indigo text-white hover:bg-indigo-700  focus:ring-primary-indigo/50 focus:ring-4;
+  }
+
+  .btn-red-full{
+    @apply  bg-red-600 text-white hover:bg-red-700  focus:ring-red-600/50 focus:ring-4;
+  }
+  .btn-green-full{
+    @apply  bg-green-600 text-white hover:bg-green-700  focus:ring-green-600/50 focus:ring-4;
+  }
+  .btn-teal-full{
+    @apply  bg-teal-600 text-white hover:bg-teal-700  focus:ring-teal-600/50 focus:ring-4;
+  }
+  .btn-sm{
+    @apply text-[0.9rem];
+  }
+  .btn-xsm{
+    @apply  !py-[0.3rem] !px-[0.4rem] !text-[0.8rem]
+  }
+  .btn-sm-2{
+    @apply text-[0.75rem] font-500;
+  }
+}

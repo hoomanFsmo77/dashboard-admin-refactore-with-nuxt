@@ -1,0 +1,17 @@
+@tailwind components;
+
+@layer components {
+  .sidebar{
+    @apply w-full  xlg:translate-x-0  translate-x-[-213px] transition-all duration-500 ease-in-out  shadow-[7px_10px_9px_rgba(0,0,0,0.1)] pb-3;
+  }
+  .sidebar_sub_link{
+    @apply py-0.5 pl-1.6 pr-0.5 transition-all hover:bg-gray-100 cursor-pointer text-0.875 inline-block w-full;
+  }
+  .sidebar-item{
+    @apply flex items-center hover:bg-gray-100 transition-all w-full p-0.25 pl-1.6 pr-0.5  cursor-pointer text-primary-gray;
+  }
+
+  .shadow-inset{
+    @apply shadow-[inset_0_0px_5px_0_rgba(0,0,0,0.1)];
+  }
+}

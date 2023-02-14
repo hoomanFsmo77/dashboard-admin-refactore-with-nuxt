@@ -1,0 +1,63 @@
+@tailwind components;
+@layer components {
+  .badge{
+    @apply absolute top-[-10%] right-[-25%] w-1.1 h-1.1 bg-primary-indigo text-white text-0.625 rounded-full flex justify-center items-center;
+  }
+  .badge-init{
+    @apply text-[0.8rem] text-white rounded-4 py-[5px] px-[8px];
+  }
+
+  .divider{
+    @apply w-full h-[2px] bg-gray-200 my-0.5;
+  }
+  .vertical-divider{
+    @apply h-full w-[2px] bg-gray-200 mx-0.5;
+  }
+  .user-profile{
+    @apply  shadow-[0_0_17px_rgba(0,0,0,0.2)] rounded-full relative cursor-pointer flex;
+  }
+
+  .category-card{
+    @apply p-0.25 px-0.5 rounded-6 text-[0.6rem] font-600;
+  }
+
+  .col{
+    @apply p-0.5 flex-initial;
+  }
+
+  .container-fluid{
+    @apply w-full mx-auto md:p-2.5 p-0.5 ;
+  }
+
+  .icon-wrapper{
+    @apply w-2 h-2 flex justify-center items-center rounded-full bg-sky-200 text-sky-600;
+  }
+
+  .tag{
+    @apply py-[4px] px-[12px] text-[0.9rem] text-white bg-primary-indigo rounded-[18px] flex gap-0.25 items-center
+  }
+
+  .dz-main{
+    @apply shadow-lg p-[5px]  rounded-6 overflow-hidden relative hover:z-[1000];
+  }
+  .dz-image{
+    @apply h-full w-full group-hover:blur-[8px] group-hover:scale-[0.9] transition-all;
+  }
+  .dz-detail{
+    @apply absolute invisible w-full h-full top-0 left-0 flex flex-col justify-center items-center group-hover:visible group-hover:z-[9999];
+  }
+  .dz-loader{
+    @apply absolute top-0 left-0  w-full h-full  flex justify-center items-center z-[999999]
+  }
+
+  .tab-item{
+    @apply capitalize text-blue-600 font-500 text-[0.9rem] cursor-pointer p-0.75 transition-all hover:text-blue-800 text-center md:block flex items-center;
+  }
+  .route-preloader{
+    @apply absolute  w-full h-full top-0 z-[9999999999] left-0 bg-[rgba(255,255,255,0.7)] flex justify-center;
+  }
+  .route-content{
+    @apply flex flex-col justify-between bg-[#f8f9fa] relative z-[1];
+  }
+
+}

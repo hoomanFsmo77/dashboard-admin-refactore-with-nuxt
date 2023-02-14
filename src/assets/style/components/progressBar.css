@@ -1,0 +1,14 @@
+@tailwind components;
+
+@layer components {
+
+  .progress-bar{
+    @apply h-[3px] bg-primary-indigo/20 rounded-4 relative w-full overflow-hidden
+  }
+  .progress-bar-big{
+    @apply h-[9px] ;
+  }
+  .progress-bar .inner{
+    @apply absolute left-0 top-0 h-full
+  }
+}

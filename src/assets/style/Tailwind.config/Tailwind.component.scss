@@ -1,4 +1,19 @@
 @tailwind components;
-@layer components {
+@import "../components/header.css";
+@import "../components/button.css";
+@import "../components/form.css";
+@import "../components/card.css";
+@import "../components/modal.css";
+@import "../components/dropdown.css";
+@import "../components/sidebar.css";
+@import "../components/gradient.css";
+@import "../components/text.css";
+@import "../components/progressBar.css";
+@import "../components/widgets.css";
+@import "../components/table.css";
 
-}
+
+
+
+
+

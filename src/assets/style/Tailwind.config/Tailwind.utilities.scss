@@ -1,5 +1,14 @@
 @tailwind utilities;
 @layer utilities {
+  .show-enter-active,.show-leave-active{
+    @apply transition-all ease-in-out duration-300
+  }
+  .show-enter-from,.show-leave-to{
+    @apply opacity-0 top-[72px];
+  }
+  .show-enter-to,.show-leave-from{
+    @apply opacity-100 top-[62px];
+  }
   .v-collapse:not(.show) {
     @apply hidden;
   }

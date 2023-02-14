@@ -1,0 +1,18 @@
+@import "tailwindcss/components";
+
+@layer components {
+  .show-enter-active,.show-leave-active{
+    @apply transition-all ease-in-out duration-300;
+  }
+  .show-enter-from,.show-leave-to{
+    @apply opacity-0 top-[64px];
+
+  }
+  .show-enter-to,.show-leave-from{
+    @apply opacity-100 top-[54px];
+  }
+
+
+}
+
+

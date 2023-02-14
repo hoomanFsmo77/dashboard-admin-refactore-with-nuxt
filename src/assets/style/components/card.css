@@ -1,0 +1,52 @@
+@tailwind components;
+
+@layer components {
+  .card{
+    @apply shadow-[0_4px_21px_rgba(0,0,0,0.15)] rounded-10 bg-white overflow-hidden;
+  }
+  .card-footer{
+    @apply bg-gray-100 p-2;
+  }
+  .card-image{
+    @apply   h-[160px]
+    bg-[url("https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg")] w-full bg-no-repeat  object-cover  bg-cover;
+  }
+  .card-title{
+    @apply p-2 shadow-[0_0.125rem_0.25rem_rgba(0,0,0,.075)];
+  }
+  .card-status{
+    @apply absolute top-0 w-full h-[8px] bg-primary-indigo left-0
+  }
+  .card-text{
+    @apply text-primary-dark text-[0.9rem] my-1 font-500;
+  }
+  .card-header{
+    @apply text-primary-dark font-700 ;
+  }
+  .card-body{
+    @apply p-1.5;
+  }
+  .card-sub{
+    @apply block text-gray-500 text-[0.9rem] font-700
+  }
+  .card-overlay{
+    @apply overflow-hidden relative;
+    .card-body{
+      @apply top-0 left-0 absolute w-full h-full z-50;
+    }
+  }
+  .dark-overlay .card-body{
+    @apply bg-[linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3))]
+  }
+  .light-overlay .card-body{
+    @apply bg-[linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4))]
+  }
+  .gradient-overlay .card-body{
+    @apply bg-[linear-gradient(1deg,rgba(0,0,0,0.6)0%,rgba(255,255,255,0.1)40%)]
+  }
+
+  .bg-image{
+    @apply object-cover w-full;
+  }
+
+}
