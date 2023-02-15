@@ -1,9 +1,9 @@
 <template>
-  <NuxtPage/>
+  Register
 </template>
 
 <script setup lang="ts">
-navigateTo({name:'Dashboards-default'})
+definePageMeta({layout:false})
 </script>
 
 <style scoped>

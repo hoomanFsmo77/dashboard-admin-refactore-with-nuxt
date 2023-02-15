@@ -15,6 +15,7 @@
   .collapsing{
     @apply h-0 overflow-hidden transition-all duration-300 ease-in-out
   }
+
   .col-1{
     width:  calc((1 * 100%) / 12);
   }

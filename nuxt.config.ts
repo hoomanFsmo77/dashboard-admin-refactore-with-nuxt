@@ -1,6 +1,12 @@
 
 
 export default defineNuxtConfig({
+    runtimeConfig:{
+        public:{
+            sidebar_api:process.env.SIDEBAR_API
+        }
+
+    },
     postcss:{
         plugins: {
             "tailwindcss/nesting": {},
