@@ -16,13 +16,18 @@ export default defineNuxtConfig({
         },
     },
     build:{
-        transpile:[],
+        transpile:['vue-toastification'],
     },
     css:[
         '~/assets/style/App.scss',
         '~/assets/style/Tailwind.config/Tailwind.base.scss',
         '~/assets/style/Tailwind.config/Tailwind.component.scss',
         '~/assets/style/Tailwind.config/Tailwind.utilities.scss',
+        'v-calendar/dist/style.css',
+        'vue3-photo-preview/dist/index.css',
+        'ladda/dist/ladda-themeless.min.css',
+        'leaflet/dist/leaflet.css',
+        '@vueform/slider/themes/default.css',
     ],
     app:{
         rootId:'v-app',

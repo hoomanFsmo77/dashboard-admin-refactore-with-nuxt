@@ -5,7 +5,7 @@
         <button
             class="bi bi-search absolute right-0 top-[12%] mr-0.5 text-1.1 cursor-pointer text-gray-500 peer"
         ></button>
-        <FormInputBox class="w-20" placeholder="search..." @focus="focus" @blur="blur"/>
+        <FormInput class="w-20" placeholder="search..." @focus="focus" @blur="blur"/>
       </div>
     </form>
     <Transition name="show">
@@ -44,7 +44,7 @@
         </li>
         <li class="dropdown-hover !py-[0.4rem]">
           <NuxtLink class="dropdown-card" :to="{name:'index'}">
-            <UserProfile img-class="m-auto" height="29px" width="31px" image-width="18" src="./profiles/profile_6.svg"/>
+            <UserProfile img-class="m-auto" height="29px" width="31px" image-width="18" src="/profiles/profile_6.svg"/>
             <span class="text-0.875 text-gray-800 mr-auto">Frank Williams</span>
           </NuxtLink>
 

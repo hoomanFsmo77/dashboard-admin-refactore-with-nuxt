@@ -36,7 +36,6 @@ export const useSidebar=(title:string)=>{
     })
 
     onMounted(()=>{
-        console.log(title,currentRoutePath.value.includes(title))
         collapseFlag.value=currentRoutePath.value.includes(title)
     })
 
