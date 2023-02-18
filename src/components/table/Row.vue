@@ -82,12 +82,12 @@
     <td>
       <div class="flex md:flex-row flex-col items-center gap-0.75 p-1 px-1.3" >
         <input :class="{'!hidden':!hasHead}" class="checkbox" type="checkbox">
-        <router-link :to="hasHead ? {name:'newPost'} :{name:''}" class="flex items-center gap-0.75 md:flex-row flex-col">
+        <NuxtLink :to="hasHead ? {name:'CMS-newPost'} :{name:''}" class="flex items-center gap-0.75 md:flex-row flex-col">
           <img v-if="image!==undefined" :src="image" width="80" class="rounded-4" alt="">
           <span class="font-700 text-0.875 ">
                {{ name }}
             </span>
-        </router-link>
+        </NuxtLink>
       </div>
     </td>
     <td>
@@ -217,10 +217,10 @@
   <tr class="table-hover" v-if="type==='product'">
     <td class=" text-[0.9rem] text-primary-dark px-1">#{{productId}}</td>
     <td >
-      <router-link class="flex gap-0.5 flex-col md:flex-row items-center pr-1 py-1 " :to="{name:'Products_New'}">
+      <NuxtLink class="flex gap-0.5 flex-col md:flex-row items-center pr-1 py-1 " :to="{name:'Ecommerce-Products_New'}">
         <img class="rounded-4" :src="image" width="80" alt="">
         <span class="text-primary-dark text-[0.9rem] font-700">{{name}}</span>
-      </router-link>
+      </NuxtLink>
     </td>
     <td class="text-[0.9rem] text-center">${{price}}</td>
     <td class="text-[0.9rem] text-center">{{inStock}}</td>
@@ -231,9 +231,9 @@
     <td >
       <div class="flex justify-between items-center px-1">
         <i class="bi bi-trash3-fill text-red-600 cursor-pointer text-1.3"></i>
-        <router-link :to="{name:'Products_New'}">
+        <NuxtLink :to="{name:'Ecommerce-Products_New'}">
           <i class="bi bi-pencil-square text-sky-600 cursor-pointer text-1.3"></i>
-        </router-link>
+        </NuxtLink>
       </div>
     </td>
   </tr>
