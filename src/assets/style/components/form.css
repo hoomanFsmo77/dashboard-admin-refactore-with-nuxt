@@ -24,7 +24,7 @@
   }
   .checkbox{
     @apply appearance-none w-[14px] h-[14px] p-[6px] border-[1px] border-gray-400 rounded-4 focus:ring-4 focus:ring-primary-indigo/50 checked:bg-primary-indigo checked:text-white
-    checked:bg-[url("../../assets/check.svg")] checked:bg-center  checked:rounded-4 outline-0
+    checked:bg-[url("/check.svg")] checked:bg-center  checked:rounded-4 outline-0
     ;
   }
   .range{
