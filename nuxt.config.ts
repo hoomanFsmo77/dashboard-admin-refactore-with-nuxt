@@ -37,7 +37,10 @@ export default defineNuxtConfig({
             link:[
                 {
                     rel:'icon',href:'/d_logo.png'
-                }
+                },
+                {
+                    rel:'stylesheet',href:'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css'
+                },
             ],
             meta: [
                 { name: 'viewport', content: 'width=device-width ,initial-scale=1.0' },

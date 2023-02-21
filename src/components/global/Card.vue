@@ -2,7 +2,7 @@
     <div class="shadow-card rounded-10 bg-white ">
        <div class="card_title p-2 flex items-center justify-between shadow-[0_0.125rem_0.25rem_rgba(0,0,0,.075)]">
           <span class="uppercase font-500 tracking-widest text-primary-dark text-[0.87rem]">{{title}}</span>
-          <div class="relative" v-if="hasMenu===undefined">
+          <div class="relative" v-if="!hasMenu">
             <NavbarButton
                           @show="toggleFocus($event)"
                           icon="bi bi-three-dots-vertical !text-1.2 card-btn"
@@ -46,10 +46,10 @@
 </template>
 
 <script setup lang="ts">
-const {hasMenu,title,bodyClass}=defineProps<{
+const props=defineProps<{
   title:string
   bodyClass:string|object
-  hasMenu:boolean
+  hasMenu:any
 }>()
 const {show,toggleFocus} = useNavbar()
 

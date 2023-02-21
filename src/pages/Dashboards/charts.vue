@@ -136,7 +136,7 @@
         </row>
       </column>
       <column col="12" md="7">
-        <Card :has-menu="false" title="Your Account Balance">
+        <Card :has-menu="true" title="Your Account Balance">
           <client-only>
             <apexchart type="line" height="400" :options="chart4.chartOptions" :series="chart4.series"></apexchart>
           </client-only>
@@ -152,7 +152,7 @@
     </row>
     <row>
       <column col="12" md="7">
-        <Card :has-menu="false" title="Your referrals">
+        <Card :has-menu="true" title="Your referrals">
           <client-only>
             <apexchart type="line" height="400" :options="chart9.chartOptions" :series="chart9.series"></apexchart>
           </client-only>
@@ -219,7 +219,8 @@
     <row>
       <column col="12" md="4">
         <div class="card  bg-gradient bg-gradient-indigo p-1.5  cursor-pointer group relative">
-          <i class="fa-brands fa-cc-visa text-primary-dark text-[2.3rem] group-hover:!text-white"></i>
+          <font-awesome-icon class="text-primary-dark text-[2.3rem] group-hover:!text-white" icon="fa-brands fa-cc-visa "></font-awesome-icon>
+
           <h6 class="uppercase tracking-widest text-primary-dark font-700 mt-1.4 group-hover:!text-white">card number</h6>
           <span class="text-gray-400 text-[0.9rem] tracking-widest group-hover:!text-white">1234 4567 7891 0123</span>
           <h4 class=" tracking-wide text-primary-dark font-700 mt-0.5 group-hover:!text-white">417.23$</h4>
@@ -228,7 +229,8 @@
       </column>
       <column col="12" md="4">
         <div class="card  bg-gradient bg-gradient-sky p-1.5  cursor-pointer group relative">
-          <i class="fa-brands fa-cc-mastercard text-primary-dark text-[2.3rem] group-hover:!text-white"></i>
+          <font-awesome-icon icon="fa-brands fa-cc-mastercard" class=" text-primary-dark text-[2.3rem] group-hover:!text-white"></font-awesome-icon>
+
           <h6 class="uppercase tracking-widest text-primary-dark font-700 mt-1.4 group-hover:!text-white">card number</h6>
           <span class="text-gray-400 text-[0.9rem] tracking-widest group-hover:!text-white">1234 4567 7891 0123</span>
           <h4 class=" tracking-wide text-primary-dark font-700 mt-0.5 group-hover:!text-white">658.23$</h4>
@@ -237,7 +239,7 @@
       </column>
       <column col="12" md="4">
         <div class="card  bg-gradient bg-gradient-green p-1.5  cursor-pointer group relative">
-          <i class="fa-brands fa-cc-discover text-primary-dark text-[2.3rem] group-hover:!text-white"></i>
+          <font-awesome-icon icon="fa-brands fa-cc-discover" class=" text-primary-dark text-[2.3rem] group-hover:!text-white"></font-awesome-icon>
           <h6 class="uppercase tracking-widest text-primary-dark font-700 mt-1.4 group-hover:!text-white">card number</h6>
           <span class="text-gray-400 text-[0.9rem] tracking-widest group-hover:!text-white">1234 4567 7891 0123</span>
           <h4 class=" tracking-wide text-primary-dark font-700 mt-0.5 group-hover:!text-white">851.23$</h4>
@@ -253,7 +255,7 @@
     </row>
     <row>
       <column col="12" md="6">
-        <Card title="Transaction history" :has-menu="null" body-class="p-2">
+        <Card title="Transaction history" :has-menu="true" body-class="p-2">
           <span class="text-[0.9rem] text-gray-500 block text-center">Lorem ipsum dolor sit amet, consectetur.</span>
           <div class="px-1 my-1.5 flex justify-between items-center">
             <div class="flex gap-1 items-center">
@@ -552,7 +554,8 @@
 
 <script setup lang="ts">
 import {chart4,chart7,chart8,chart9,chart10,chart11,chart12} from "~/utils/chartData";
-import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
+
+
 
 </script>
 

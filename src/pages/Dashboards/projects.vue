@@ -126,7 +126,7 @@
     </row>
     <row>
       <column col="12" md="7">
-        <Card :has-menu="false" title="Closed Projects">
+        <Card :has-menu="true" title="Closed Projects">
           <client-only>
             <apexchart type="line" height="400" :options="chart4.chartOptions" :series="chart4.series"></apexchart>
           </client-only>
