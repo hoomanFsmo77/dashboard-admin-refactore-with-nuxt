@@ -24,7 +24,7 @@ const sidebarMainData=[
             {title:'Posts',to:{name:'CMS-Posts'}},
             {title:'Add new post',to:{name:'CMS-newPost'}},
             {title:'Categories',to:{name:'CMS-Categories'}},
-            {title:'Media Library',to:{name:'CMS-MediaLibrary'}},
+            {title:'Media Library',to:{name:'CMS-Medialibrary'}},
         ]
     },
     {
