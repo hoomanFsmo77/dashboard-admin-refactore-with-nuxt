@@ -18,6 +18,7 @@
 </template>
 
 <script setup lang="ts">
+const {$textColor,$bgColor}=useNuxtApp()
 
 const {change,icon,state,theme,title,achieve}=defineProps<{
   title:string

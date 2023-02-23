@@ -24,7 +24,7 @@
                 <li v-for="(item,index) in files" class="dz-main group">
                   <div class="relative z-10 w-[130px] h-[130px] ">
                     <img v-if="item.type.includes('image')" :src="item.data" class="dz-image"  alt="">
-                    <img v-else src="../../../assets/app.svg" class="dz-image" alt="">
+                    <img v-else src="/app.svg" class="dz-image" alt="">
                   </div>
                   <div class="dz-detail ">
                     <span><strong>{{item.size}}</strong> MB</span>

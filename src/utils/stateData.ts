@@ -124,7 +124,7 @@ let staticData2=[
         change:'20%',
         btn:'Manage list',
         theme:'red',
-        link:'Stats'
+        link:'Widgets-Stats'
     },
     {
         icon:'bi bi-book-fill',
@@ -133,7 +133,7 @@ let staticData2=[
         change:'35%',
         btn:'See details',
         theme:'blue',
-        link:'Stats'
+        link:'Widgets-Stats'
     },{
         icon:'bi bi-camera-fill',
         achieve:'1,256',
@@ -141,7 +141,7 @@ let staticData2=[
         change:'18%',
         btn:'Upload new',
         theme:'indigo',
-        link:'Stats'
+        link:'Widgets-Stats'
     },
 ]
 let contactData=[
