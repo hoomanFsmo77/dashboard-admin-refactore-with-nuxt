@@ -44,7 +44,7 @@
 </template>
 
 <script setup lang="ts">
-import '~/assets/style/components/Transition.css'
+import '~/assets/style/components/Transition.scss'
 ///////////////////////////////////////////////////
 const {show,toggleFocus}=useNavbar()
 

@@ -6,7 +6,7 @@
   }
   .input-toggle{
     @apply appearance-none w-[25px] h-[13px] rounded-full border-[1px]
-    border-[#D1D5DB] focus:ring-4 focus:ring-primary-indigo/50 transition-all  bg-[url("../../assets/circle.svg")] bg-no-repeat bg-[length:9px] bg-[position:2px_2px] focus:border-primary-indigo/50 checked:bg-[position:13px_2px]  checked:bg-primary-indigo checked:border-primary-indigo;
+    border-[#D1D5DB] focus:ring-4 focus:ring-primary-indigo/50 transition-all  bg-[url("/circle.svg")] bg-no-repeat bg-[length:9px] bg-[position:2px_2px] focus:border-primary-indigo/50 checked:bg-[position:13px_2px]  checked:bg-primary-indigo checked:border-primary-indigo;
 
   }
   .selectBox{
