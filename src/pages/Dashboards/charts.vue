@@ -81,7 +81,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         Finances
-        <img src="/coin.svg" width="20" alt="">
+        <nuxt-img src="/coin.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>
@@ -147,7 +147,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         Usage
-        <img src="/chart.svg" width="20" alt="">
+        <nuxt-img src="/chart.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>
@@ -213,7 +213,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         Linked Cards
-        <img src="/credit.svg" width="20" alt="">
+        <nuxt-img src="/credit.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>
@@ -250,7 +250,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         Updates
-        <img src="/new.svg" width="20" alt="">
+        <nuxt-img src="/new.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>
@@ -472,7 +472,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         People
-        <img src="/people.svg" width="20" alt="">
+        <nuxt-img src="/people.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>

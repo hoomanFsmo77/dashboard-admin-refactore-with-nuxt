@@ -1,7 +1,7 @@
 <template>
   <button class="user-profile"
           :style="{height:height,width:width}">
-    <img :src="src" :class="imgClass"  class="m-auto" :width="imageWidth" alt="">
+    <nuxt-img :src="src" :class="imgClass"  class="m-auto" :width="imageWidth" alt=""/>
     <slot/>
   </button>
 </template>

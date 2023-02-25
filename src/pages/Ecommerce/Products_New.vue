@@ -70,7 +70,7 @@
                 <column v-for="(item,index) in galleryData.slice(0,7)" col="6"  md="4">
                   <photo-consumer  :intro="item.name" :key="index" :src="item.image">
                     <div class="card overflow-hidden relative cursor-pointer group">
-                      <img :src="item.image" class="view-box"  alt="">
+                      <nuxt-img :src="item.image" class="view-box"  alt=""/>
                       <div class="p-0.75 relative">
                         <span class="text-[0.8rem] text-gray-600 ">{{item.name}} das dad ad adas</span>
                         <span class="icon-wrapper absolute opacity-0 invisible transition group-hover:opacity-100 group-hover:visible top-[33%] right-[8px]">
@@ -95,8 +95,8 @@
                   <ul class="flex flex-col md:flex-row gap-1 flex-wrap">
                     <li v-for="(item,index) in files" class="dz-main group">
                       <div class="relative z-10 w-[130px] h-[130px] ">
-                        <img v-if="item.type.includes('image')" :src="item.data" class="dz-image"  alt="">
-                        <img v-else src="/app.svg" class="dz-image" alt="">
+                        <nuxt-img v-if="item.type.includes('image')" :src="item.data" class="dz-image"  alt=""/>
+                        <nuxt-img v-else src="/app.svg" class="dz-image" alt=""/>
                       </div>
                       <div class="dz-detail ">
                         <span><strong>{{item.size}}</strong> MB</span>

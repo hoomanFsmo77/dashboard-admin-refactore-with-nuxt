@@ -23,8 +23,8 @@
               <ul class="flex flex-col md:flex-row gap-1 flex-wrap">
                 <li v-for="(item,index) in files" class="dz-main group">
                   <div class="relative z-10 w-[130px] h-[130px] ">
-                    <img v-if="item.type.includes('image')" :src="item.data" class="dz-image"  alt="">
-                    <img v-else src="/app.svg" class="dz-image" alt="">
+                    <nuxt-img v-if="item.type.includes('image')" :src="item.data" class="dz-image"  alt=""/>
+                    <nuxt-img v-else src="/app.svg" class="dz-image" alt=""/>
                   </div>
                   <div class="dz-detail ">
                     <span><strong>{{item.size}}</strong> MB</span>
@@ -64,7 +64,7 @@
         <column v-for="(item,index) in galleryData" col="6" sm="6" lg="3" xlg="2" md="4">
           <photo-consumer  :intro="item.name" :key="index" :src="item.image">
             <div class="card overflow-hidden relative">
-              <img :src="item.image" class="view-box"  alt="">
+              <nuxt-img :src="item.image" class="view-box"  alt=""/>
               <div class="py-0.5 px-0.75">
                 <span class="text-0.875 text-gray-600 ">{{item.name}}</span>
               </div>
