@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt build ",
     "dev": "nuxt dev --port=9000",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -46,6 +46,7 @@
     "choices.js": "^10.2.0",
     "core-js": "^3.26.0",
     "epic-spinners": "^2.0.0",
+    "highlight.js": "^11.7.0",
     "ladda": "^2.0.3",
     "leaflet": "^1.9.3",
     "pinia": "^2.0.29",
