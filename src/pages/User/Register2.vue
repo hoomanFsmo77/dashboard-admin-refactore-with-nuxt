@@ -32,7 +32,7 @@
         </form>
       </column>
       <column class="!m-0 !p-0 sm:block hidden" col="12" sm="4" lg="8">
-        <img class="w-full h-full" src="https://images.pexels.com/photos/1552212/pexels-photo-1552212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        <nuxt-img class="w-full h-full" src="https://images.pexels.com/photos/1552212/pexels-photo-1552212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
       </column>
     </row>
   </main>
