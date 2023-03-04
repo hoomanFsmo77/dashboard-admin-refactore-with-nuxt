@@ -3,7 +3,7 @@
   <tr class="table-hover " v-if="type==='default'">
     <td>
       <div class="p-1 px-1.3 flex md:flex-row flex-col items-center gap-1">
-        <UserProfile width="50px" height="50px" image-width="40" :src="image"/>
+        <UserProfile  :isCloud="true"  width="50px" height="50px" image-width="40" :src="image"/>
         <div>
           <span class="text-1 font-600">{{ name }}</span>
           <br>
@@ -83,7 +83,7 @@
       <div class="flex md:flex-row flex-col items-center gap-0.75 p-1 px-1.3" >
         <input :class="{'!hidden':!hasHead}" class="checkbox" type="checkbox">
         <NuxtLink :to="hasHead ? {name:'CMS-newPost'} :{name:''}" class="flex items-center gap-0.75 md:flex-row flex-col">
-          <nuxt-img v-if="image!==undefined" :src="image" width="80" class="rounded-4" alt=""/>
+          <nuxt-img  provider="cloudinary"   v-if="image!==undefined" :src="image" width="80" class="rounded-4" alt=""/>
           <span class="font-700 text-0.875 ">
                {{ name }}
             </span>
@@ -113,7 +113,7 @@
   <tr class="table-hover even:bg-gray-100 " v-if="type==='ecommerce'">
     <td>
       <div class="flex md:flex-row flex-col items-center gap-0.75 p-1 px-1.3">
-        <nuxt-img v-if="image!==undefined" :src="image" width="80" class="rounded-4" alt=""/>
+        <nuxt-img  v-if="image!==undefined" :src="image" width="80" class="rounded-4" alt=""/>
         <span class="font-700 text-0.875 ">
                {{ name }}
           </span>
@@ -218,7 +218,7 @@
     <td class=" text-[0.9rem] text-primary-dark px-1">#{{productId}}</td>
     <td >
       <NuxtLink class="flex gap-0.5 flex-col md:flex-row items-center pr-1 py-1 " :to="{name:'Ecommerce-Products_New'}">
-        <nuxt-img class="rounded-4" :src="image" width="80" alt=""/>
+        <nuxt-img   class="rounded-4" :src="image" width="80" alt=""/>
         <span class="text-primary-dark text-[0.9rem] font-700">{{name}}</span>
       </NuxtLink>
     </td>
@@ -244,7 +244,7 @@
     <td class="p-1">
       <div class="flex items-center">
         <input type="checkbox" class="checkbox mr-1">
-        <UserProfile width="50px" height="50px" image-width="40" :src="image"/>
+        <UserProfile  :isCloud="true"  width="50px" height="50px" image-width="40" :src="image"/>
         <span class="ml-1 text-primary-dark font-700 text-[0.9rem] capitalize">{{name}}</span>
       </div>
     </td>

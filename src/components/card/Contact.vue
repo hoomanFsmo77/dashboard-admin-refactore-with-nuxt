@@ -1,7 +1,7 @@
 <template>
   <div class="card p-1.5 flex gap-1 relative items-center !rounded-[20px]">
       <div>
-        <UserProfile class="overflow-hidden" height="80px" width="80px" :src="image" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
+        <UserProfile :isCloud="false" class="overflow-hidden" height="80px" width="80px" :src="image" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
       </div>
     <div>
       <span class="block text-1.1 text-primary-dark font-800">{{name}}</span>

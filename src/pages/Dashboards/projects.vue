@@ -206,7 +206,7 @@
               </td>
               <td class="">
                 <div class="flex items-center gap-0.5 flex-row">
-                  <UserProfile :src="item.img" width="45px" height="45px" image-width="35"/>
+                  <UserProfile  :isCloud="true"  :src="item.img" width="45px" height="45px" image-width="35"/>
                   <span>{{item.name}}</span>
                 </div>
               </td>

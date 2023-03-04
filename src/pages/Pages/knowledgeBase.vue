@@ -126,7 +126,7 @@
           Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.
         </p>
         <div class="flex gap-0.5 items-center justify-center flex-wrap">
-          <UserProfile  v-for="item in contactData.slice(0,5)"  class="overflow-hidden transition-all hover:translate-y-[-5px]" height="80px" width="80px" :src="item.image" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
+          <UserProfile :isCloud="true"  v-for="item in contactData.slice(0,5)"  class="overflow-hidden transition-all hover:translate-y-[-5px]" height="80px" width="80px" :src="item.image" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
         </div>
       </column>
     </row>

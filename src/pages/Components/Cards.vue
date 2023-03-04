@@ -21,7 +21,7 @@
       </column>
       <column col="12" sm="6" md="3">
         <div class="card overflow-hidden relative">
-          <nuxt-img :src="galleryData[1].image" class="view-box"  alt=""/>
+          <nuxt-img    :src="galleryData[1].image" class="view-box"  alt=""/>
           <div class="card-body !pb-1">
             <h5 class="card-header">Card title</h5>
             <p class="card-text">
@@ -41,7 +41,7 @@
       </column>
       <column col="12" sm="6" md="3">
         <div class="card overflow-hidden relative">
-          <nuxt-img :src="galleryData[2].image" class="view-box"  alt="" />
+          <nuxt-img     :src="galleryData[2].image" class="view-box"  alt="" />
           <div class="p-1.5">
             <p class="card-text !my-0">
               Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -55,7 +55,7 @@
             <h5 class="card-header">Card title</h5>
             <span class="text-[0.9rem] text-gray-500 font-700">Support card subtitle</span>
           </div>
-          <nuxt-img :src="galleryData[3].image" class="view-box"  alt=""/>
+          <nuxt-img     :src="galleryData[3].image" class="view-box"  alt=""/>
           <div class="p-1.5">
             <p class="card-text !my-0">
               Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -116,7 +116,7 @@
       <column col="12" sm="6" md="4">
         <div class="card overflow-hidden relative">
           <div >
-            <nuxt-img  :src="galleryData[0].image" class="view-box w-full object-cover"  alt=""/>
+            <nuxt-img     :src="galleryData[0].image" class="view-box w-full object-cover"  alt=""/>
           </div>
           <div class="card-body">
             <h5 class="card-header">Card title</h5>
@@ -139,14 +139,14 @@
             <span class="text-gray-500 text-[0.8rem] font-500">Last updated 3 mins ago</span>
           </div>
           <div >
-            <nuxt-img  :src="galleryData[1].image" class="view-box w-full object-cover"  alt="" />
+            <nuxt-img     :src="galleryData[1].image" class="view-box w-full object-cover"  alt="" />
           </div>
         </div>
       </column>
       <column col="12" sm="6" md="4">
         <div class="card overflow-hidden relative">
           <div>
-            <nuxt-img src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg" class="object-cover h-full" alt="" />
+            <nuxt-img     src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg" class="object-cover h-full" alt="" />
           </div>
           <div class="card-body top-0 left-0 absolute w-full h-full z-50">
             <h5 class="card-header !text-white">Card title</h5>
@@ -291,7 +291,7 @@
       <column col="12" class="flex">
         <div class="card w-full !rounded-r-[0px]">
           <div>
-            <nuxt-img class="w-full" :src="galleryData[0].image" alt="" />
+            <nuxt-img   class="w-full" :src="galleryData[0].image" alt="" />
           </div>
           <div class="card-body">
             <h5 class="card-header">Card title</h5>
@@ -304,7 +304,7 @@
         </div>
         <div class="card w-full !rounded-r-[0px] !rounded-l-[0px]">
           <div>
-            <nuxt-img class="w-full" :src="galleryData[1].image" alt="" />
+            <nuxt-img    class="w-full" :src="galleryData[1].image" alt="" />
           </div>
           <div class="card-body">
             <h5 class="card-header">Card title</h5>
@@ -317,7 +317,7 @@
         </div>
         <div class="card w-full !rounded-l-[0px]">
           <div >
-            <nuxt-img class="w-full h-full" :src="galleryData[3].image" alt="" />
+            <nuxt-img     class="w-full h-full" :src="galleryData[3].image" alt="" />
           </div>
           <div class="card-body">
             <h5 class="card-header">Card title</h5>

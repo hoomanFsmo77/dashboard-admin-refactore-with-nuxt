@@ -1,9 +1,10 @@
 <template>
   <UserProfile
+      :isCloud="true"
       @focus="show=true"
       @blur="show=false"
       width="50px" height="50px"
-      src="/profiles/profile_1.svg"
+      src="v1677917720/dashboard/profiles/profile_1_vxajeq.svg"
       image-width="40"
       img-class="m-auto user-dropdown-btn"
   >

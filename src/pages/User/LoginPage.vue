@@ -8,8 +8,8 @@
               <div class="p-2.5">
                 <div class="flex gap-0.5 items-center">
                   <h3 class="text-primary-dark font-700">Hi, welcome back!</h3>
-                  <nuxt-img src="/hand.svg" width="30" alt=""/>
-                  <nuxt-img src="/hand.svg" width="30" alt=""/>
+                  <nuxt-img  provider="cloudinary"   src="v1677917716/dashboard/hand_wrzzhv.svg" width="30" alt=""/>
+                  <nuxt-img  provider="cloudinary"   src="v1677917716/dashboard/hand_wrzzhv.svg" width="30" alt=""/>
                 </div>
                 <p class="article !my-2 !text-[0.8rem]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
@@ -31,7 +31,7 @@
         </column>
         <column col="12" md="6">
           <div class="flex flex-col items-center justify-center">
-            <nuxt-img src="money.svg" width="400" alt="" />
+            <nuxt-img  provider="cloudinary"   src="v1677917718/dashboard/money_eizlfk.svg" width="400" alt="" />
             <h2 class="text-indigo-700 font-800 text-center mt-1">
               Start saving
               <br>

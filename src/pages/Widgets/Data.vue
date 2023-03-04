@@ -262,7 +262,7 @@
                 </td>
                 <td class="">
                   <div class="flex items-center gap-0.5 flex-row">
-                    <UserProfile :src="item.img" width="45px" height="45px" image-width="35"/>
+                    <UserProfile  :isCloud="true"  :src="item.img" width="45px" height="45px" image-width="35"/>
                     <span>{{item.name}}</span>
                   </div>
                 </td>
@@ -303,7 +303,7 @@
               <tbody>
               <tr v-for="item in tableData9.td" class="table-hover">
                 <td class="p-0.75  gap-1 flex items-center  " >
-                  <nuxt-img width="30" :src="item.image" alt=""/>
+                  <nuxt-img  provider="cloudinary"   width="30" :src="item.image" alt=""/>
                   <span class="text-[0.9rem] text-primary-dark font-500 capitalize">{{item.country}}</span>
                 </td>
                 <td class="text-center">
@@ -359,7 +359,7 @@
               <tr class="table-hover " v-for="item in tableData3.td.slice(0,6)">
                 <td class=" text-[0.9rem] text-primary-dark px-1">#{{item.productId}}</td>
                 <td class="flex gap-0.5 flex-col md:flex-row items-center p-1">
-                  <nuxt-img class="rounded-4" :src="item.image" width="100" alt=""/>
+                  <nuxt-img  provider="cloudinary"   class="rounded-4" :src="item.image" width="100" alt=""/>
                   <span class="text-primary-dark font-700">{{item.name}}</span>
                 </td>
                 <td class="text-[0.9rem] text-center">${{item.price}}</td>

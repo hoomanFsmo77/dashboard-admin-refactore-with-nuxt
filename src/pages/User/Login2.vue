@@ -5,7 +5,7 @@
         <form  @submit.prevent>
           <div class="px-2 py-2.5 h-full flex flex-col ">
             <div class="text-center">
-              <nuxt-img src="/d_logo.png" class="m-auto" width="90" alt="" />
+              <nuxt-img  provider="cloudinary"   src="v1677917716/dashboard/d_logo_liscqp.png" class="m-auto" width="90" alt="" />
               <h4 class="text-primary-dark font-800 text-center  uppercase tracking-widest mt-1">welcome back</h4>
             </div>
             <div class="mt-3">
@@ -26,7 +26,7 @@
         </form>
       </column>
       <column class="!m-0 !p-0 sm:block hidden" col="12" sm="4" lg="8">
-        <nuxt-img class="w-full h-full" src="https://images.pexels.com/photos/1552212/pexels-photo-1552212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+        <nuxt-img     class="w-full h-full" src="https://images.pexels.com/photos/1552212/pexels-photo-1552212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
       </column>
     </row>
   </main>

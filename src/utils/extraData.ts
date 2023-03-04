@@ -2,27 +2,27 @@
 //////////////////////// tooltip data
 const tooltipData=[
     {
-        img:'/profiles/profile_1.svg',
+        img:'v1677917720/dashboard/profiles/profile_1_vxajeq.svg',
         title:'lorem ipsum'
     },
     {
-        img:'/profiles/profile_2.svg',
+        img:'v1677917720/dashboard/profiles/profile_2_h7syjv.svg',
         title:'lorem ipsum'
     },
     {
-        img:'/profiles/profile_3.svg',
+        img:'v1677917721/dashboard/profiles/profile_3_ungsuj.svg',
         title:'lorem ipsum'
     },
     {
-        img:'/profiles/profile_4.svg',
+        img:'v1677917721/dashboard/profiles/profile_4_sldwk8.svg',
         title:'lorem ipsum'
     },
     {
-        img:'/profiles/profile_5.svg',
+        img:'v1677917721/dashboard/profiles/profile_5_xzbzxy.svg',
         title:'lorem ipsum'
     },
     {
-        img:'/profiles/profile_6.svg',
+        img:'v1677917721/dashboard/profiles/profile_6_qq9kef.svg',
         title:'lorem ipsum'
     },
 ]
@@ -359,7 +359,7 @@ const codeEditorValue2="<template>\n" +
     "}\n" +
     "</style>"
 
-let codeEditorValue3="<template>\n  <div class=\"container-fluid\">\n     <row>\n      <photo-provider>\n        <column v-for=\"(item,index) in galleryData\" col=\"6\"  md=\"4\" xlg=\"3\">\n          <photo-consumer  :intro=\"item.name\" :key=\"index\" :src=\"item.image\">\n            <div class=\"card overflow-hidden cursor-pointer\">\n              <nuxt-img :src=\"item.image\" class=\"view-box\"  alt=\"\" />\n              <div class=\"py-0.5 px-0.75\">\n                <span class=\"text-0.875 text-primary-dark font-700 \">{{item.name}}</span>\n                <span class=\"block my-0.5 text-[0.8rem] text-gray-500\">Image sample text</span>\n              </div>\n            </div>\n          </photo-consumer>\n        </column>\n      </photo-provider>\n    </row>\n  </div>  \n</template>  \n<script >\nconst galleryData=[\n    {\n        image:'./img1.jpg',        \n        name:'Image 1'\n    },\n    {\n        image:'./img2.jpg',        \n        name:'Image 2'\n    },\n    {\n        image:'./img3.jpg',        \n        name:'Image 3'\n    },\n]\n\n</script>"
+let codeEditorValue3="<template>\n  <div class=\"container-fluid\">\n     <row>\n      <photo-provider>\n        <column v-for=\"(item,index) in galleryData\" col=\"6\"  md=\"4\" xlg=\"3\">\n          <photo-consumer  :intro=\"item.name\" :key=\"index\" :src=\"item.image\">\n            <div class=\"card overflow-hidden cursor-pointer\">\n              <nuxt-img   :src=\"item.image\" class=\"view-box\"  alt=\"\" />\n              <div class=\"py-0.5 px-0.75\">\n                <span class=\"text-0.875 text-primary-dark font-700 \">{{item.name}}</span>\n                <span class=\"block my-0.5 text-[0.8rem] text-gray-500\">Image sample text</span>\n              </div>\n            </div>\n          </photo-consumer>\n        </column>\n      </photo-provider>\n    </row>\n  </div>  \n</template>  \n<script >\nconst galleryData=[\n    {\n        image:'./img1.jpg',        \n        name:'Image 1'\n    },\n    {\n        image:'./img2.jpg',        \n        name:'Image 2'\n    },\n    {\n        image:'./img3.jpg',        \n        name:'Image 3'\n    },\n]\n\n</script>"
 
 let codeEditorValue4="<template>\n" +
     "  <div id=\"map\" class=\"h-[400px]\"></div>\n" +
@@ -541,7 +541,7 @@ let codeEditorValue10="<template>\n" +
 let codeEditorValue11="<template>\n    <Datapicker :is-range=\"true\"/>\n</template>\n<script >\nimport Datapicker from '../../components/reusable/Datapicker.vue'\n</script>"
 
 
-let codeEditorValue12="<template>\n              <row   class=\"overflow-hidden\">\n            <column col=\"12\" @dragover.prevent >\n              <div  class=\"card !shadow-[0_1px_8px_rgba(0,0,0,0.15)] relative !bg-transparent p-2 cursor-pointer text-center overflow-hidden\" ref=\"uploadSection\">\n                <div v-if=\"files.length===0\">\n                  <span class=\"text-[0.9rem]\">Drop files here or click to upload.</span>\n                  <span class=\"text-[0.9rem] my-1 block\">(This is just a demo dropzone. Selected files are <strong>not</strong> actually uploaded.)</span>\n                </div>\n                <div v-else>\n                  <ul class=\"flex flex-col md:flex-row gap-1 flex-wrap\">\n                    <li v-for=\"(item,index) in files\" class=\"dz-main group\">\n                      <div class=\"relative z-10 w-[130px] h-[130px] \">\n                        <nuxt-img v-if=\"item.type.includes('image')\" :src=\"item.data\" class=\"dz-image\"  alt=\"\"/>\n                        <nuxt-img v-else src=\"/app.svg\" class=\"dz-image\" alt=\"\" />\n                      </div>\n                      <div class=\"dz-detail \">\n                        <span><strong>{{item.size}}</strong> MB</span>\n                        <span class=\"block my-0.5\">{{item.name}}</span>\n                        <i class=\"bi bi-x-lg\" @click=\"removeItem(index)\"></i>\n                      </div>\n                      <div class=\"dz-loader\">\n                        <div class=\"progress-bar progress-bar-big\">\n                          <div :ref=\"loader\" class=\"inner bg-indigo-700 transition-all\"></div>\n                        </div>\n                      </div>\n                    </li>\n                  </ul>\n                </div>\n                <input @change=\"uploadFileHandler($event)\" type=\"file\" class=\"file\">\n              </div>\n            </column>\n          </row>\n\n</template>\n<script>\n   import useUploader from \"../../composables/useUploader.js\";\n   const {show,toggleUploader,uploadSection,height,uploadFileHandler,files,removeItem,loader}=useUploader()\n</script>"
+let codeEditorValue12="<template>\n              <row   class=\"overflow-hidden\">\n            <column col=\"12\" @dragover.prevent >\n              <div  class=\"card !shadow-[0_1px_8px_rgba(0,0,0,0.15)] relative !bg-transparent p-2 cursor-pointer text-center overflow-hidden\" ref=\"uploadSection\">\n                <div v-if=\"files.length===0\">\n                  <span class=\"text-[0.9rem]\">Drop files here or click to upload.</span>\n                  <span class=\"text-[0.9rem] my-1 block\">(This is just a demo dropzone. Selected files are <strong>not</strong> actually uploaded.)</span>\n                </div>\n                <div v-else>\n                  <ul class=\"flex flex-col md:flex-row gap-1 flex-wrap\">\n                    <li v-for=\"(item,index) in files\" class=\"dz-main group\">\n                      <div class=\"relative z-10 w-[130px] h-[130px] \">\n                        <nuxt-img    v-if=\"item.type.includes('image')\" :src=\"item.data\" class=\"dz-image\"  alt=\"\"/>\n                        <nuxt-img    v-else src=\"v1677917722/dashboard/app_qruccc.svg\" class=\"dz-image\" alt=\"\" />\n                      </div>\n                      <div class=\"dz-detail \">\n                        <span><strong>{{item.size}}</strong> MB</span>\n                        <span class=\"block my-0.5\">{{item.name}}</span>\n                        <i class=\"bi bi-x-lg\" @click=\"removeItem(index)\"></i>\n                      </div>\n                      <div class=\"dz-loader\">\n                        <div class=\"progress-bar progress-bar-big\">\n                          <div :ref=\"loader\" class=\"inner bg-indigo-700 transition-all\"></div>\n                        </div>\n                      </div>\n                    </li>\n                  </ul>\n                </div>\n                <input @change=\"uploadFileHandler($event)\" type=\"file\" class=\"file\">\n              </div>\n            </column>\n          </row>\n\n</template>\n<script>\n   import useUploader from \"../../composables/useUploader.js\";\n   const {show,toggleUploader,uploadSection,height,uploadFileHandler,files,removeItem,loader}=useUploader()\n</script>"
 
 let codeEditorValue13="<template>\n     <Editor value=\"compose an epic\" height=\"200px\"/>\n</template>\n<script>\nimport Editor from '../../components/reusable/Editor.vue'\n</script>\n"
 

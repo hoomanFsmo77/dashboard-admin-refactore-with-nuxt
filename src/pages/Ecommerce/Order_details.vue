@@ -92,7 +92,7 @@
                   <tr class="table-hover " v-for="item in tableData10.td">
                     <td class="p-1 px-1.3 ">
                       <div class="flex items-center gap-1 md:flex-row flex-col">
-                        <nuxt-img class="rounded-4" :src="item.img" width="100" alt=""/>
+                        <nuxt-img    class="rounded-4" :src="item.img" width="100" alt=""/>
                         <div>
                           <span class="text-[0.9rem] font-600">{{item.name}}</span>
                           <br>
@@ -126,7 +126,7 @@
               <span class="text-[0.85rem] font-500 text-gray-600">
                 John Brown<br>13/25 New Avenue<br>New Heaven<br>45Y 73J<br>England<br>
                 <span class="text-gray-700 font-700 flex items-center gap-1">Great Britain
-                  <nuxt-img src="/country/germany.svg" width="20" class="rounded-full" alt="" />
+                  <nuxt-img  provider="cloudinary"   src="v1677917719/dashboard/country/germany_mm6jmk.svg" width="20" class="rounded-full" alt="" />
                 </span>
               </span>
 
@@ -137,7 +137,7 @@
               <span class="text-[0.85rem] font-500 text-gray-600">
                 John Brown<br>13/25 New Avenue<br>New Heaven<br>45Y 73J<br>England<br>
                 <span class="text-gray-700 font-700 flex items-center gap-1">Great Britain
-                  <nuxt-img src="/country/germany.svg" width="20" class="rounded-full" alt=""/>
+                  <nuxt-img  provider="cloudinary"   src="v1677917719/dashboard/country/germany_mm6jmk.svg" width="20" class="rounded-full" alt=""/>
                 </span>
               </span>
             </Card>

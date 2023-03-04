@@ -37,21 +37,21 @@
         </li>
         <li class="dropdown-hover !py-[0.4rem]">
           <NuxtLink class="dropdown-card" :to="{name:'index'}">
-            <UserProfile img-class="m-auto" height="29px" width="31px" image-width="18" src="/profiles/profile_5.svg"/>
+            <UserProfile :isCloud="true" img-class="m-auto" height="29px" width="31px" image-width="18" src="v1677917721/dashboard/profiles/profile_5_xzbzxy.svg"/>
             <span class="text-0.875 text-gray-800 mr-auto">Json Doe</span>
           </NuxtLink>
 
         </li>
         <li class="dropdown-hover !py-[0.4rem]">
           <NuxtLink class="dropdown-card" :to="{name:'index'}">
-            <UserProfile img-class="m-auto" height="29px" width="31px" image-width="18" src="/profiles/profile_6.svg"/>
+            <UserProfile  :isCloud="true"  img-class="m-auto" height="29px" width="31px" image-width="18" src="v1677917721/dashboard/profiles/profile_6_qq9kef.svg"/>
             <span class="text-0.875 text-gray-800 mr-auto">Frank Williams</span>
           </NuxtLink>
 
         </li>
         <li class="dropdown-hover !py-[0.4rem]">
           <NuxtLink class="dropdown-card" :to="{name:'index'}">
-            <UserProfile img-class="m-auto" height="29px" width="31px" image-width="18" src="/profiles/profile_1.svg"/>
+            <UserProfile  :isCloud="true"  img-class="m-auto" height="29px" width="31px" image-width="18" src="v1677917720/dashboard/profiles/profile_1_vxajeq.svg"/>
             <span class="text-0.875 text-gray-800 mr-auto">Ashley Wood</span>
           </NuxtLink>
 

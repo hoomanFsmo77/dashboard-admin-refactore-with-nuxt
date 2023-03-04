@@ -23,8 +23,8 @@
               <ul class="flex flex-col md:flex-row gap-1 flex-wrap">
                 <li v-for="(item,index) in files" class="dz-main group">
                   <div class="relative z-10 w-[130px] h-[130px] ">
-                    <nuxt-img v-if="item.type.includes('image')" :src="item.data" class="dz-image"  alt=""/>
-                    <nuxt-img v-else src="/app.svg" class="dz-image" alt=""/>
+                    <nuxt-img  provider="cloudinary"   v-if="item.type.includes('image')" :src="item.data" class="dz-image"  alt=""/>
+                    <nuxt-img  provider="cloudinary"   v-else src="https://res.cloudinary.com/dhpxutwun/image/upload/v1677917538/dashboard/app_njinwp.svg" class="dz-image" alt=""/>
                   </div>
                   <div class="dz-detail ">
                     <span><strong>{{item.size}}</strong> MB</span>
@@ -60,20 +60,22 @@
     </row>
     <row>
 
-      <photo-provider>
-        <column v-for="(item,index) in galleryData" col="6" sm="6" lg="3" xlg="2" md="4">
-          <photo-consumer  :intro="item.name" :key="index" :src="item.image">
-            <div class="card overflow-hidden relative">
-              <nuxt-img :src="item.image" class="view-box"  alt=""/>
-              <div class="py-0.5 px-0.75">
-                <span class="text-0.875 text-gray-600 ">{{item.name}}</span>
+      <client-only>
+        <photo-provider>
+          <column v-for="(item,index) in galleryData" col="6" sm="6" lg="3" xlg="2" md="4">
+            <photo-consumer  :intro="item.name" :key="index" :src="item.image">
+              <div class="card overflow-hidden relative">
+                <nuxt-img    :src="item.image" class="view-box"  alt=""/>
+                <div class="py-0.5 px-0.75">
+                  <span class="text-0.875 text-gray-600 ">{{item.name}}</span>
+                </div>
+                <NuxtLink :to="{name:'CMS-Medialibrary'}" class="link-stretch"></NuxtLink>
               </div>
-              <NuxtLink :to="{name:'CMS-Medialibrary'}" class="link-stretch"></NuxtLink>
-            </div>
 
-          </photo-consumer>
-        </column>
-      </photo-provider>
+            </photo-consumer>
+          </column>
+        </photo-provider>
+      </client-only>
     </row>
   </div>
 </template>

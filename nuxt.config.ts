@@ -1,6 +1,10 @@
 
-
 export default defineNuxtConfig({
+    image: {
+        cloudinary: {
+            baseURL: 'https://res.cloudinary.com/dhpxutwun/image/upload/'
+        }
+    },
     postcss:{
         plugins: {
             "tailwindcss/nesting": {},
@@ -11,6 +15,7 @@ export default defineNuxtConfig({
     },
     build:{
         transpile:['vue-toastification'],
+
     },
     css:[
         '~/assets/style/App.scss',
@@ -30,7 +35,7 @@ export default defineNuxtConfig({
             title:'Nuxt and Tailwind Dashboard Admin',
             link:[
                 {
-                    rel:'icon',href:'/d_logo.png'
+                    rel:'icon',href:'https://res.cloudinary.com/dhpxutwun/image/upload/v1677917716/dashboard/d_logo_liscqp.png'
                 },
                 {
                     rel:'stylesheet',href:'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css'

@@ -81,7 +81,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         Finances
-        <nuxt-img src="/coin.svg" width="20" alt=""/>
+        <nuxt-img  provider="cloudinary"   src="v1677917723/dashboard/coin_niesta.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>
@@ -147,7 +147,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         Usage
-        <nuxt-img src="/chart.svg" width="20" alt=""/>
+        <nuxt-img  provider="cloudinary"   src="v1677917722/dashboard/chart_dafrof.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>
@@ -213,7 +213,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         Linked Cards
-        <nuxt-img src="/credit.svg" width="20" alt=""/>
+        <nuxt-img  provider="cloudinary"   src="v1677917723/dashboard/credit_mtlonn.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>
@@ -250,7 +250,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         Updates
-        <nuxt-img src="/new.svg" width="20" alt=""/>
+        <nuxt-img  provider="cloudinary"   src="v1677917717/dashboard/new_hajkft.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>
@@ -472,7 +472,7 @@
     <row class="!mt-3">
       <h6 class="text-primary-dark font-600 uppercase px-2 flex items-center gap-1">
         People
-        <nuxt-img src="/people.svg" width="20" alt=""/>
+        <nuxt-img  provider="cloudinary"   src="v1677917717/dashboard/people_ppocn0.svg" width="20" alt=""/>
       </h6>
     </row>
     <row>
@@ -482,7 +482,7 @@
             <h5 class="font-700 text-primary-dark">24 <sup class="!text-0.75 !text-gray-500">May</sup></h5>
           </div>
           <div class=" flex md:flex-row flex-col gap-1 items-center">
-            <UserProfile height="50px" image-width="40" width="50px" src="/profiles/profile_1.svg"/>
+            <UserProfile  :isCloud="true"  height="50px" image-width="40" width="50px" src="v1677917720/dashboard/profiles/profile_1_vxajeq.svg"/>
             <h6  class="group-hover:!text-white font-700 text-primary-dark">Lorem ipsum</h6>
             <span class="p-0.85 bg-gray-200 flex justify-center items-center rounded-full text-0.875 !text-gray-700">
               User testing
@@ -500,7 +500,7 @@
             <h5 class="font-700 text-primary-dark">24 <sup class="!text-0.75 !text-gray-500">May</sup></h5>
           </div>
           <div class=" flex md:flex-row flex-col gap-1 items-center">
-            <UserProfile height="50px" image-width="40" width="50px" src="/profiles/profile_2.svg"/>
+            <UserProfile  :isCloud="true"  height="50px" image-width="40" width="50px" src="v1677917720/dashboard/profiles/profile_2_h7syjv.svg"/>
             <h6  class="group-hover:!text-white font-700 text-primary-dark">Lorem ipsum</h6>
             <span class="p-0.85 bg-gray-200 flex justify-center items-center rounded-full text-0.875 !text-gray-700">
               Web developer
@@ -518,7 +518,7 @@
             <h5 class="font-700 text-primary-dark">24 <sup class="!text-0.75 !text-gray-500">May</sup></h5>
           </div>
           <div class=" flex md:flex-row flex-col gap-1 items-center">
-            <UserProfile height="50px" image-width="40" width="50px" src="/profiles/profile_3.svg"/>
+            <UserProfile  :isCloud="true"  height="50px" image-width="40" width="50px" src="v1677917721/dashboard/profiles/profile_3_ungsuj.svg"/>
             <h6  class="group-hover:!text-white font-700 text-primary-dark">Lorem ipsum</h6>
             <span class="p-0.85 bg-gray-200 flex justify-center items-center rounded-full text-0.875 !text-gray-700">
               Analysis Agent
@@ -536,7 +536,7 @@
             <h5 class="font-700 text-primary-dark">24 <sup class="!text-0.75 !text-gray-500">May</sup></h5>
           </div>
           <div class=" flex md:flex-row flex-col gap-1 items-center">
-            <UserProfile height="50px" image-width="40" width="50px" src="/profiles/profile_4.svg"/>
+            <UserProfile  :isCloud="true"  height="50px" image-width="40" width="50px" src="v1677917721/dashboard/profiles/profile_4_sldwk8.svg"/>
             <h6  class="group-hover:!text-white font-700 text-primary-dark">Lorem ipsum</h6>
             <span class="p-0.85 bg-gray-200 flex justify-center items-center rounded-full text-0.875 !text-gray-700">
               User testing

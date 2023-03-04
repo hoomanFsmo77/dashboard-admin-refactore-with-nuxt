@@ -1,7 +1,7 @@
 <template>
   <button class="user-profile"
           :style="{height:height,width:width}">
-    <nuxt-img :src="src" :class="imgClass"  class="m-auto" :width="imageWidth" alt=""/>
+    <nuxt-img  :provider="isCloud ? 'cloudinary' : ''"  :src="src" :class="imgClass"  class="m-auto" :width="imageWidth" alt=""/>
     <slot/>
   </button>
 </template>
@@ -12,9 +12,10 @@ interface Props{
   imageWidth:string
   height:string
   width:string
-  imgClass:string
+  imgClass:string,
+  isCloud:boolean
 }
-const {width,imageWidth,src,imgClass,height}=defineProps<Props>()
+const {width,imageWidth,src,imgClass,height,isCloud}=defineProps<Props>()
 
 </script>
 

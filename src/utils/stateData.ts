@@ -42,52 +42,52 @@ let activityData=[
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'2 min ago',
-        src:'/profiles/profile_1.svg',
+        src:'v1677917720/dashboard/profiles/profile_1_vxajeq.svg',
     },{
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'4 min ago',
-        src:'/profiles/profile_2.svg',
+        src:'v1677917720/dashboard/profiles/profile_2_h7syjv.svg',
     },{
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'3 min ago',
-        src:'/profiles/profile_3.svg',
+        src:'v1677917721/dashboard/profiles/profile_3_ungsuj.svg',
     },{
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'4 min ago',
-        src:'/profiles/profile_4.svg',
+        src:'v1677917721/dashboard/profiles/profile_4_sldwk8.svg',
     },{
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'5 min ago',
-        src:'/profiles/profile_5.svg',
+        src:'v1677917721/dashboard/profiles/profile_5_xzbzxy.svg',
     },{
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'6 min ago',
-        src:'/profiles/profile_6.svg',
+        src:'v1677917721/dashboard/profiles/profile_6_qq9kef.svg',
     },{
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'3 min ago',
-        src:'/profiles/profile_3.svg',
+        src:'v1677917721/dashboard/profiles/profile_3_ungsuj.svg',
     },{
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'5 min ago',
-        src:'/profiles/profile_4.svg',
+        src:'v1677917721/dashboard/profiles/profile_4_sldwk8.svg',
     },{
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'4 min ago',
-        src:'/profiles/profile_5.svg',
+        src:'v1677917721/dashboard/profiles/profile_5_xzbzxy.svg',
     },{
         name:'lorem ipsum',
         activity:'Lorem ipsum dolor',
         time:'1 min ago',
-        src:'/profiles/profile_1.svg',
+        src:'v1677917720/dashboard/profiles/profile_1_vxajeq.svg',
         isLast:true
     },
 

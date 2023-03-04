@@ -12,7 +12,7 @@
           <div class="card-image"></div>
           <div class="card-profile relative">
             <div class="absolute right-[30%] shadow-card rounded-full top-[-73px] w-[135px] h-[135px] p-[5px] bg-white">
-              <nuxt-img src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc="
+              <nuxt-img     src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc="
                    class="rounded-full w-full h-full   object-cover z-50  "
                    alt=""
               />
@@ -31,7 +31,7 @@
         </div>
         <div class="card my-2 p-2 flex items-center gap-1.5">
           <div>
-            <UserProfile class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
+            <UserProfile :isCloud="false" class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
           </div>
           <div>
             <h5 class="text-left font-700 text-primary-dark">Nathan Andrews</h5>
@@ -45,7 +45,7 @@
         <Card title="My Profile" :has-menu="!false" body-class="!p-2">
           <div class="flex items-center gap-1.5">
             <div>
-              <UserProfile class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
+              <UserProfile :isCloud="false" class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
             </div>
             <div>
               <FormInput id="name" placeholder="Your Name" class="w-full text-[0.9rem]" label="Name"/>
@@ -79,7 +79,7 @@
                 <column col="12">
                   <div class="flex gap-1">
                     <div>
-                      <UserProfile class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
+                      <UserProfile :isCloud="false" class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
                     </div>
                     <div>
                       <span class="text-[0.9rem] text-gray-800 block">10 mins ago</span>
@@ -95,7 +95,7 @@
                 <column col="10" class="ml-auto">
                   <div class="flex gap-1">
                     <div>
-                      <UserProfile class="overflow-hidden" height="50px" width="50px" src="/profiles/profile_1.svg"  image-width="40"/>
+                      <UserProfile :isCloud="true" class="overflow-hidden" height="50px" width="50px" src="v1677917720/dashboard/profiles/profile_1_vxajeq.svg"  image-width="40"/>
                     </div>
                     <div>
                       <p class="text-[0.8rem] font-400 my-0.5 text-gray-600 !mt-0">
@@ -110,7 +110,7 @@
                 <column col="10" class="ml-auto">
                   <div class="flex gap-1">
                     <div>
-                      <UserProfile class="overflow-hidden" height="50px" width="50px" src="/profiles/profile_2.svg"  image-width="40"/>
+                      <UserProfile :isCloud="true" class="overflow-hidden" height="50px" width="50px" src="v1677917720/dashboard/profiles/profile_2_h7syjv.svg"  image-width="40"/>
                     </div>
                     <div>
                       <p class="text-[0.8rem] font-400 my-0.5 text-gray-600 !mt-0">
@@ -128,7 +128,7 @@
                 <column col="12">
                   <div class="flex gap-1">
                     <div>
-                      <UserProfile class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
+                      <UserProfile :isCloud="false" class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
                     </div>
                     <div>
                       <span class="text-[0.9rem] text-gray-800 block">10 mins ago</span>
@@ -147,7 +147,7 @@
                 <column col="12">
                   <div class="flex gap-1">
                     <div>
-                      <UserProfile class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
+                      <UserProfile :isCloud="false" class="overflow-hidden" height="80px" width="80px" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" img-class="object-cover rounded-full h-[88%]" image-width="70"/>
                     </div>
                     <div>
                       <span class="text-[0.9rem] text-gray-800 block">10 mins ago</span>
@@ -163,7 +163,7 @@
                 <column col="10" class="ml-auto">
                   <div class="flex gap-1">
                     <div>
-                      <UserProfile class="overflow-hidden" height="50px" width="50px" src="/profiles/profile_1.svg"  image-width="40"/>
+                      <UserProfile :isCloud="true" class="overflow-hidden" height="50px" width="50px" src="v1677917720/dashboard/profiles/profile_1_vxajeq.svg"  image-width="40"/>
                     </div>
                     <div>
                       <p class="text-[0.8rem] font-400 my-0.5 text-gray-600 !mt-0">

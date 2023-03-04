@@ -22,7 +22,7 @@
             <span class="category-card  bg-primary-red  text-white text-[0.7rem]">Overdue</span>
           </div>
           <div class="flex flex-col justify-center items-center gap-1">
-            <nuxt-img src="/d_logo.png" width="100" alt=""/>
+            <nuxt-img  provider="cloudinary"   src="v1677917716/dashboard/d_logo_liscqp.png" width="100" alt=""/>
             <h2 class="text-primary-dark font-700 text-center">Invoice from Vintage, Ltd.</h2>
             <span class="text-[0.9rem] text-gray-600 font-500">Invoice #20190204</span>
           </div>

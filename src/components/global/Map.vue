@@ -11,7 +11,7 @@ const props=defineProps(['id','type','height'])
 
 onMounted(()=>{
   let map = L.map(props.id).setView([51.505, -0.09], 13);
-  let LeafIcon = L.icon({iconUrl:'/marker-icon.png'});
+  let LeafIcon = L.icon({iconUrl:'https://res.cloudinary.com/dhpxutwun/image/upload/v1677917717/dashboard/marker-icon_fe4jxv.png'});
 
   if(props.type==='simple'){
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {

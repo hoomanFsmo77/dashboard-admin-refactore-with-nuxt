@@ -6,7 +6,7 @@
   }
   .input-toggle{
     @apply appearance-none w-[25px] h-[13px] rounded-full border-[1px]
-    border-[#D1D5DB] focus:ring-4 focus:ring-primary-indigo/50 transition-all  bg-[url("/circle.svg")] bg-no-repeat bg-[length:9px] bg-[position:2px_2px] focus:border-primary-indigo/50 checked:bg-[position:13px_2px]  checked:bg-primary-indigo checked:border-primary-indigo;
+    border-[#D1D5DB] focus:ring-4 focus:ring-primary-indigo/50 transition-all  bg-[url("https://res.cloudinary.com/dhpxutwun/image/upload/v1677917723/dashboard/circle_k2xsh5.svg")] bg-no-repeat bg-[length:9px] bg-[position:2px_2px] focus:border-primary-indigo/50 checked:bg-[position:13px_2px]  checked:bg-primary-indigo checked:border-primary-indigo;
 
   }
   .selectBox{
@@ -24,7 +24,7 @@
   }
   .checkbox{
     @apply appearance-none w-[14px] h-[14px] p-[6px] border-[1px] border-gray-400 rounded-4 focus:ring-4 focus:ring-primary-indigo/50 checked:bg-primary-indigo checked:text-white
-    checked:bg-[url("/check.svg")] checked:bg-center  checked:rounded-4 outline-0
+    checked:bg-[url("https://res.cloudinary.com/dhpxutwun/image/upload/v1677917722/dashboard/check_pktxkf.svg")] checked:bg-center  checked:rounded-4 outline-0
     ;
   }
   .range{

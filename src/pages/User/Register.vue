@@ -28,7 +28,7 @@
         </column>
         <column col="12" md="6">
           <div class="flex flex-col items-center justify-center">
-            <nuxt-img src="/money.svg" width="400" alt="" />
+            <nuxt-img  provider="cloudinary"   src="v1677917718/dashboard/money_eizlfk.svg" width="400" alt="" />
             <h2 class="text-indigo-700 font-800 text-center mt-1">
               Start saving
               <br>

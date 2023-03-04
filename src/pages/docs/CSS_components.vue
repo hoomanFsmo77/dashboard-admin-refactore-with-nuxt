@@ -34,34 +34,34 @@
               </li>
             </ul>
             <div class="flex gap-2 flex-wrap my-1 items-center">
-              <UserProfile
+              <UserProfile  :isCloud="true"
                   width="150px"
                   height="150px"
-                  src="/profiles/profile_1.svg"
+                  src="v1677917720/dashboard/profiles/profile_1_vxajeq.svg"
                   image-width="130"
               />
-              <UserProfile
+              <UserProfile  :isCloud="true"
                   width="110px"
                   height="110px"
-                  src="/profiles/profile_2.svg"
+                  src="v1677917720/dashboard/profiles/profile_2_h7syjv.svg"
                   image-width="90"
               />
-              <UserProfile
+              <UserProfile  :isCloud="true"
                   width="90px"
                   height="90px"
-                  src="/profiles/profile_3.svg"
+                  src="v1677917721/dashboard/profiles/profile_3_ungsuj.svg"
                   image-width="70"
               />
-              <UserProfile
+              <UserProfile  :isCloud="true"
                   width="60px"
                   height="60px"
-                  src="/profiles/profile_4.svg"
+                  src="v1677917721/dashboard/profiles/profile_4_sldwk8.svg"
                   image-width="50"
               />
-              <UserProfile
+              <UserProfile  :isCloud="true"
                   width="30px"
                   height="30px"
-                  src="/profiles/profile_5.svg"
+                  src="v1677917721/dashboard/profiles/profile_5_xzbzxy.svg"
                   image-width="20"
               />
             </div>
@@ -192,7 +192,7 @@
             <row>
               <column col="12">
                 <div class="card card-overlay">
-                  <nuxt-img  src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"  class="bg-image h-[200px]"  alt="" />
+                  <nuxt-img   src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"  class="bg-image h-[200px]"  alt="" />
                   <div class="card-body  flex justify-center items-center ">
                     <h2 class="card-header !text-white">I have a background image</h2>
                   </div>
@@ -208,7 +208,7 @@
             <row>
               <column col="12" md="4">
                 <div class="card card-overlay dark-overlay">
-                  <nuxt-img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"  class="bg-image "  alt="" />
+                  <nuxt-img     src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"  class="bg-image "  alt="" />
                   <div class="card-body  flex justify-center items-center ">
                     <h4 class="card-header text-center !text-white">Dark Overlay</h4>
                   </div>
@@ -216,7 +216,7 @@
               </column>
               <column col="12" md="4">
                 <div class="card card-overlay light-overlay">
-                  <nuxt-img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"  class="bg-image "  alt="" />
+                  <nuxt-img    src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"  class="bg-image "  alt="" />
                   <div class="card-body  flex justify-center items-center ">
                     <h4 class="card-header text-center">Light Overlay</h4>
                   </div>
@@ -224,7 +224,7 @@
               </column>
               <column col="12" md="4">
                 <div class="card card-overlay gradient-overlay">
-                  <nuxt-img  src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"  class="bg-image "  alt="" />
+                  <nuxt-img     src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"  class="bg-image "  alt="" />
                   <div class="card-body  flex justify-center items-center ">
                     <h4 class="card-header text-center !text-white">Gradient Overlay</h4>
                   </div>

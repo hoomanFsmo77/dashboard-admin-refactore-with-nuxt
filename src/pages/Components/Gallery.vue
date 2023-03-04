@@ -12,7 +12,7 @@
           <column v-for="(item,index) in galleryData.slice(0,12)" col="6"  md="4" xlg="3">
             <photo-consumer  :intro="item.name" :key="index" :src="item.image">
               <div class="card overflow-hidden cursor-pointer">
-                <nuxt-img :src="item.image" class="view-box"  alt="" />
+                <nuxt-img    :src="item.image" class="view-box"  alt="" />
                 <div class="py-0.5 px-0.75">
                   <span class="text-0.875 text-primary-dark font-700 ">{{item.name}}</span>
                   <span class="block my-0.5 text-[0.8rem] text-gray-500">Image sample text</span>
