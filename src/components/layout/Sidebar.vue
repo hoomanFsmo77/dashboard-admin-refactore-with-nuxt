@@ -31,12 +31,9 @@
 </template>
 
 <script setup lang="ts">
+import {sidebarMainData,sidebarDocsData} from "~/utils/sidebarData";
 const sidebarFlag=useState<boolean>('sidebarFlag')
-const {public:{sidebar_api}}=useRuntimeConfig()
 const isUnder1200=process.client ? window.innerWidth < 1200 :null
-const {data:sidebarMainData}=await useFetch(sidebar_api,{query:{type:'main'}})
-const {data:sidebarDocsData}=await useFetch(sidebar_api,{query:{type:'docs'}})
-
 
 </script>
 
